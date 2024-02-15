@@ -22,6 +22,15 @@ class Category(models.Model):
         verbose_name_plural = 'Kategoriyalar'
 
 
+class TeleUser(models.Model):
+    telegram_id = models.CharField(max_length=20, verbose_name="telegram id")
+    username = models.CharField(max_length=20, verbose_name="username")
+    name = models.TextField(verbose_name="ismi")
+    phone_number = models.CharField(max_length=15, verbose_name="telefon raqam")
+    address = models.TextField(verbose_name="Manzil")
+    birthday = models.CharField(max_length=30, verbose_name="tug'ulgan kun")
+
+
 class Product(models.Model):
     title = models.CharField(max_length=150, unique=True, verbose_name='Maxsulot', null=True, blank=True)
     price = models.FloatField(verbose_name='Narxi')
@@ -47,23 +56,8 @@ class Gallery(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='images')
 
     class Meta:
-        verbose_name = 'Изображение'
-        verbose_name_plural = 'Изображения'
-
-
-class Review(models.Model):
-    text = models.TextField(verbose_name='Текст отзыва')
-    author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='Автор')
-    product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='Продукт')
-    created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата публикации')
-    publish = models.BooleanField(default=True, verbose_name='Опубликовать?')
-
-    def __str__(self):
-        return self.text[:20]
-
-    class Meta:
-        verbose_name = 'Отзыв'
-        verbose_name_plural = 'Отзывы'
+        verbose_name = 'Rasm'
+        verbose_name_plural = 'Rasmlar'
 
 
 class FavouriteProducts(models.Model):

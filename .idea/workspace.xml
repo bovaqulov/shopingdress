@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d9f3b2-cfb4-4999-b431-f1b4db722292" name="Changes" comment="#1">
-      <change beforePath="$PROJECT_DIR$/.idea/SHOP BOT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SHOP BOT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram_bot/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot/models.py" afterDir="false" />
     </list>
@@ -87,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708013775108</updated>
       <workItem from="1708013781457" duration="1049000" />
-      <workItem from="1708015094003" duration="1583000" />
+      <workItem from="1708015094003" duration="2774000" />
     </task>
     <servers />
   </component>
